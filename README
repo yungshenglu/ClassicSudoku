@@ -1,0 +1,43 @@
+Project 1 - Sudoku
+FILE: 
+	01. Sudoku.cpp 
+	02. Sudoku.h 
+	03. Makefile
+	04. give_question.cpp
+	05. solve.cpp
+
+AUTHOR: F74039025
+
+DESCRIPTION:
+	01. Makefile
+		- For compilation.	
+	02. Sudoku.h:
+		- Include all header files needed.
+		- Define the class of Sudoku.
+	03. Sudoku.cpp
+		- Define the constructor.
+		- Define all the method of the class "Sudoku".
+		- For "GiveQuestion()":
+			(1) Set the initial Sudoku map.
+			(2) Use the initial map to random a new map.
+				(By using swap the rows and cells.)
+			(3) Output the the Sudoku map.
+		- For "ReadIn()" and "Solve()":
+			(1) Collect the statistics of all possible number in blank.
+			(2) Solve the blank which has only one possible number.
+			(3) Brute force: Guess all other blanks.
+			(4) Output the result of Sudoku.
+				(Unsolvable / Exactly one solution / More than one solution)
+	04. give_question.cpp
+		- Test the function "GiveQuestion()".
+	05. soleve.cpp
+		- Test the functions "ReadIn()" and "Solve()".
+	
+COMPILATION: 
+	make
+
+EXECUTION:
+	01. To test "GiveQuestion()":
+		./give_question
+	02. To test "ReadIn()" and "Solve()":
+		./solve
