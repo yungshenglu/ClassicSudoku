@@ -2,7 +2,13 @@
 
 [![License: IEEE](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-# Description
+This game is a simple implementation of classic *Sudoku*. 
+
+## Introduction
+
+This repository is a simple implementation of classic game *Sudoku*. Different with the normal Sudoku, I also implement the *solver* of Sudoku which can let the computer to solve the Sudoku by input a Sudoku question.
+
+## Description
 
 * `Makefile`: For compilation.	
 * `Sudoku.h`:
