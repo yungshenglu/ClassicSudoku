@@ -10,6 +10,8 @@ This repository is a simple implementation of classic game *Sudoku*. Different w
 ---
 ## File Description
 
+> **NOTICE:** All source files are in the folder `src/`
+
 * `Makefile`: For compilation
 * `Sudoku.h`:
 	- Include all header files needed
@@ -37,10 +39,12 @@ This repository is a simple implementation of classic game *Sudoku*. Different w
 
 * Compilation
 	```bash
+	# Make sure your current directory is in "src/"
 	$ make
 	```
 * Execution
 	```bash
+	# Make sure your current directory is in "src/"
 	# To test "GiveQuestion()":
 	$ ./give_question
 	# To test "ReadIn()" and "Solve()":
