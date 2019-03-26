@@ -2,6 +2,8 @@
 
 This repository is a simple implementation of classic game *Sudoku*. Different with the normal Sudoku, I also implement the *solver* of Sudoku which can let the computer to solve the Sudoku by input a Sudoku question.
 
+* More information about "[Sudoku](https://en.wikipedia.org/wiki/Sudoku)"
+
 > **NOTICE:** This repository is a project in NCKU course "Program Design 2". If you are taking this course, please do not duplicate from this repository. All rights reserved.
 
 ---
@@ -58,6 +60,6 @@ This repository is a simple implementation of classic game *Sudoku*. Different w
 ---
 ## License
 
-NOTCIE: This repository is the assignment in NCKU course "Program Design 2". If you are taking this course, please do not duplicate from this repository. All rights reserved.
+> **NOTCIE:** This repository is the assignment in NCKU course "Program Design 2". If you are taking this course, please do not duplicate from this repository. All rights reserved.
 
 [GNU GENERAL PUBLIC LICENSE Version 3](LICENSE)
